@@ -1,9 +1,10 @@
 {
   "id": "theme-hueso",
   "name": "Hueso",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "apiVersion": 18,
   "entry": "plugin.js",
+  "icon": "icon.png",
   "description": "Blanco hueso liso, marrón de tinta y terracota: un tema claro y cálido, sin blanco puro.",
   "author": "kinotvapp",
   "hosts": [],
