@@ -1,0 +1,70 @@
+{
+  "id": "theme-hueso",
+  "name": "Hueso",
+  "version": "1.0.0",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Blanco hueso liso, marrón de tinta y terracota: un tema claro y cálido, sin blanco puro.",
+  "author": "kinotvapp",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "capabilities": [
+    "screen"
+  ],
+  "screen": {
+    "label": "Hueso",
+    "labelEn": "Bone",
+    "opensFrom": [
+      "settings"
+    ],
+    "settingsButton": {
+      "label": "Ver presentación",
+      "labelEn": "See presentation"
+    }
+  },
+  "appThemes": [
+    {
+      "id": "hueso",
+      "name": {
+        "es": "Hueso",
+        "en": "Bone"
+      },
+      "colors": {
+        "accent": "#B4532A",
+        "onAccent": "#FFFFFF",
+        "background": "#F4EFE6",
+        "surface": "#FBF8F2",
+        "surfaceHigh": "#E9E2D4",
+        "railPanel": "#EAE3D6",
+        "textPrimary": "#2B2118",
+        "textSecondary": "#5E5246",
+        "outline": "#CFC5B3",
+        "focus": "#2B2118",
+        "onFocus": "#F4EFE6"
+      },
+      "shape": {
+        "cardRadius": 14,
+        "channelRadius": 14,
+        "buttonRadius": 22,
+        "chipRadius": 18,
+        "dialogRadius": 18,
+        "inputRadius": 12
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#B4532A",
+            "#2F6B5E",
+            "#7A4E9C"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 28
+        }
+      }
+    }
+  ]
+}
